@@ -1,0 +1,55 @@
+/* Aqui va la maquetación de la web */
+
+.app {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__title {
+    color: #002;
+}
+
+.app__card {
+    width: 100%;
+    max-width: 20em;
+    background-color: #EF3724;
+    padding: 1.5em, 2em;
+    border-radius: 0.8em;
+    box-shadow: 0.3em 0.3em 0.5em #0005;
+    
+}
+
+.app__phrase {
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    font-size: 1em;
+}
+
+.app__phrase:hover {
+    transform: scale(1.1);
+}
+
+.app__btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    font-size: 1.2rem;
+    border: none;
+    padding: 0.8em;
+    background-color: #070748;
+    transition: transform 0.3s ease-in-out;
+    color: bisque;
+}
+
+.app__btn:hover {
+    box-shadow: 0 0 1.5em #070748;
+}

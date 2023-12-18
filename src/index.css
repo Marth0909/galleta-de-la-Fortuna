@@ -1,0 +1,32 @@
+/* Aquí va el maquetado del reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bitter:wght@500&family=Kanit&family=Quicksand:wght@300&family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto+Serif:opsz,wght@8..144,100;8..144,300&family=Roboto:wght@100&display=swap');
+
+/* --- Reset --- */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Bitter', serif;
+    /* box-sizing: border-box; */
+}
+
+body {
+    margin: 0;
+}
+
+h1, p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #000;
+}
+
+button {
+    font-family: 'Anton', sans-serif;
+    cursor: pointer;
+  
+    
+}
