@@ -17,12 +17,16 @@
 
 .app__card {
     width: 100%;
-    max-width: 20em;
+    max-width: 25em;
     background-color: #EF3724;
     padding: 1.5em, 2em;
     border-radius: 0.8em;
     box-shadow: 0.3em 0.3em 0.5em #0005;
-    
+   
+}
+
+.app__card:hover {
+    transform: scale(1.1);
 }
 
 .app__phrase {
@@ -33,9 +37,6 @@
     font-size: 1em;
 }
 
-.app__phrase:hover {
-    transform: scale(1.1);
-}
 
 .app__btn {
     display: block;
